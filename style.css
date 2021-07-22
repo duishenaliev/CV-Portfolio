@@ -76,11 +76,15 @@ body {
   position: sticky;
   z-index: 2;
 }
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
 .navbar {
   background-color: #000;
 }
 .navbar-brand img {
-  padding-left: 140px;
+  padding-left: 40px;
   height: 40px;
 }
 .nav-bar .fa-bars {
