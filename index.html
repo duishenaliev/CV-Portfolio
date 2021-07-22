@@ -30,7 +30,7 @@
       </div>
       <div class="scroll-btn">
         <div class="scroll-bar">
-          <a href=""><span></span></a>
+          <a href="#about"><span></span></a>
         </div>
       </div>
     </section>
@@ -56,19 +56,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav m-lg-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT ME</a>
+                <a class="nav-link" href="#about">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">RESUME</a>
+                <a class="nav-link" href="#resume">RESUME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -114,6 +114,32 @@
         </div>
       </div>
 
+      <!-- Icons -->
+
+      <div class="social-icons">
+        <ul>
+          <a href="#"
+            ><li>
+              <i class="fab fa-linkedin"></i></li
+          ></a>
+          <a href="#"
+            ><li>
+              <i class="fab fa-instagram"></i></li
+          ></a>
+          <a href="#"
+            ><li>
+              <i class="fab fa-whatsapp"></i></li
+          ></a>
+          <a href="#"
+            ><li>
+              <i class="fab fa-behance"></i></li
+          ></a>
+          <a href="#"
+            ><li>
+              <i class="fab fa-github"></i></li
+          ></a>
+        </ul>
+      </div>
       <!-- Resume -->
 
       <div class="resume" id="resume">
@@ -214,12 +240,86 @@
       </div>
 
       <!-- Services -->
-      <div class="services" id="services ">
+      <div class="services" id="services">
         <div class="container">
-          <!-- <h1 class="text-center">My Offered Services</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+          <h1 class="text-center">My Offered Services</h1>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="services-box">
+                <i class="fas fa-rocket"></i><span> UI UX Design</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quaerat fuga, enim, ducimus.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="services-box">
+                <i class="fas fa-laptop-code"></i
+                ><span> Frontend Development</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quaerat fuga, enim, ducimus.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="services-box">
+                <i class="fas fa-pen-nib"></i><span> Graphic Design</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quaerat fuga, enim, ducimus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+
+      <div class="contact" id="contact">
+        <div class="container text-center">
+          <h1>Contact to me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            officiis itaque sed beatae explicabo voluptatibus, <br />
+            atque neque id consequuntur quibusdam recusandae tempora
+            perspiciatis. Mollitia pariatur qui soluta eaque, aliquid modi!
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fa fa-phone"></i>
+              <p>+996 505 905 805</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-envelope"></i>
+              <p>bolotbekov.nktl@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fab fa-chrome"></i>
+              <p>www.duishenalievvv.com</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary">
+            <i class="fa fa-download"></i>Resume
+          </button>
+          <button type="button" class="btn btn-primary">
+            <i class="fa fa-rocket"></i>Hire Me
+          </button>
+        </div>
+        <div class="footer text-center">
+          Copyright <i class="far fa-copyright"></i> 2021 All rights reserved
         </div>
       </div>
     </section>
+    <!-- smooth scroll -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
