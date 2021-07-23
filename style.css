@@ -40,11 +40,11 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border: 2px solid #fff;
-  padding: 10px 10px 20px;
+  padding: 15px 15px 30px;
   border-radius: 30px;
 }
 .scroll-bar span {
-  border: 2px solid #fff;
+  border: 6px solid #fff;
   font-size: 10px;
   border-radius: 30px;
 }
@@ -76,15 +76,14 @@ body {
   position: sticky;
   z-index: 2;
 }
-.ml-auto,
-.mx-auto {
+.ml-auto {
   margin-left: auto !important;
 }
 .navbar {
   background-color: #000;
 }
 .navbar-brand img {
-  padding-left: 40px;
+  padding-left: 140px;
   height: 40px;
 }
 .nav-bar .fa-bars {
